@@ -1,0 +1,25 @@
+@font-face
+{
+    font-family: 'roboto';
+    src: url("../fonts/roboto.woff");
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    overflow: hidden;
+    font-size: 16px;
+    font-family: roboto;
+}
+
+nav
+{
+    background-color: #333;
+    height: 40px;
+}
+nav a{
+    text-decoration:none;
+}

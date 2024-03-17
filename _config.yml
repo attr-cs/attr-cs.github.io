@@ -1,0 +1,38 @@
+# Configuration file for your Jekyll site.
+
+# Site settings
+# These settings personalize your site. They can be accessed in templates using {{ site.title }}, {{ site.email }}, etc.
+# You can also define custom variables here, accessible in templates using {{ site.myvariable }}.
+
+title: Portfolio
+email: dhruvbh108@gmail.com # Replace with your email address
+description: >- 
+  Welcome to my portfolio website. Explore my projects and skills!
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username:  # Your Twitter username (if applicable)
+github_username: attr-cs # Your GitHub username
+
+# Build settings
+theme: minima
+plugins:
+  - jekyll-feed
+
+# Destination directory for the generated site files
+destination: ./docs
+
+# Exclude from processing.
+# The following items will not be processed by default.
+# You can process excluded items by explicitly listing them in the `include:` list.
+
+# Excluded items:
+#   - .sass-cache/
+#   - .jekyll-cache/
+#   - gemfiles/
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules/
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
