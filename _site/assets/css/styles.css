@@ -19,7 +19,11 @@ nav
 {
     background-color: #333;
     height: 40px;
+    text-align: center;
+    padding-top: 0.5em;
 }
 nav a{
     text-decoration:none;
+    margin: 0 0.7em;
+    color: #fff;
 }
