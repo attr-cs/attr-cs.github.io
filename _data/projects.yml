@@ -1,0 +1,155 @@
+portfolio:
+  - title: Portfolio Website 1
+    description: A personal portfolio website showcasing your skills, projects, and experiences.
+    technologies: React.js, HTML5, CSS3, JavaScript
+    features: Responsive design, project galleries, contact form
+    challenges: Implementing smooth animations, optimizing performance
+
+  - title: Portfolio Website 2
+    description: A personal portfolio website showcasing creative projects and designs.
+    technologies: Jekyll, HTML5, CSS3, JavaScript
+    features: Custom design, interactive portfolio sections, blog integration
+    challenges: Customizing Jekyll themes, optimizing SEO
+
+ecommerce:
+  - title: E-commerce Platform 1
+    description: An online store specializing in handmade crafts and goods.
+    technologies: MERN stack (MongoDB, Express.js, React.js, Node.js)
+    features: User authentication, product catalog, shopping cart, payment integration
+    challenges: Integrating payment gateways, managing inventory
+
+  - title: E-commerce Platform 2
+    description: A marketplace for digital products and online courses.
+    technologies: Django, PostgreSQL, HTML5, CSS3
+    features: User authentication, digital product delivery, course enrollment
+    challenges: Customizing Django admin panel, optimizing database queries
+
+blog:
+  - title: Blog Website 1
+    description: A personal blog website featuring travel experiences and photography.
+    technologies: Jekyll, GitHub Pages, HTML5, CSS3
+    features: Custom theme, image gallery, comments section
+    challenges: Customizing Jekyll layouts, optimizing for speed
+
+  - title: Blog Website 2
+    description: A technology blog covering latest trends and tutorials.
+    technologies: WordPress, PHP, MySQL, HTML5, CSS3
+    features: Custom theme development, SEO optimization, social sharing
+    challenges: WordPress customization, optimizing database queries
+
+social_media:
+  - title: Social Media App 1
+    description: A social networking platform for connecting professionals.
+    technologies: React.js, Node.js, Express.js, MongoDB
+    features: User profiles, friend connections, messaging system
+    challenges: Real-time updates, data modeling, authentication
+
+  - title: Social Media App 2
+    description: A photo-sharing app for enthusiasts to showcase their work.
+    technologies: Angular, Firebase, TypeScript, SCSS
+    features: Image uploads, likes and comments, user profiles
+    challenges: File storage, real-time notifications, UI design
+
+online_learning:
+  - title: Online Learning Platform 1
+    description: An educational platform offering coding tutorials and exercises.
+    technologies: MERN stack (MongoDB, Express.js, React.js, Node.js)
+    features: User authentication, course catalog, progress tracking
+    challenges: Content creation, user engagement, scalability
+
+  - title: Online Learning Platform 2
+    description: A language learning platform with interactive lessons and quizzes.
+    technologies: Django, PostgreSQL, HTML5, CSS3
+    features: User profiles, lesson progress tracking, quiz scoring
+    challenges: Content localization, user feedback implementation
+
+next_js:
+  - title: Next.js Project 1
+    description: A web application built with Next.js for server-side rendering.
+    technologies: Next.js, React.js, CSS3, Node.js
+    features: Server-side rendering, dynamic routing, API integration
+    challenges: Learning curve of Next.js, SSR optimization
+
+  - title: Next.js Project 2
+    description: A blog website built with Next.js for SEO optimization.
+    technologies: Next.js, React.js, CSS3, Markdown
+    features: SEO-friendly, server-side rendering, markdown support
+    challenges: Integrating markdown files, SEO best practices
+
+react_native:
+  - title: React Native Project 1
+    description: A mobile app built with React Native for cross-platform development.
+    technologies: React Native, JavaScript, Expo
+    features: Cross-platform compatibility, native component support
+    challenges: Bridging native modules, performance optimization
+
+  - title: React Native Project 2
+    description: An e-commerce app built with React Native for iOS and Android.
+    technologies: React Native, Redux, Firebase
+    features: User authentication, product catalog, cart management
+    challenges: Cross-platform UI consistency, push notifications
+
+redux:
+  - title: Redux Project 1
+    description: A web application using Redux for state management.
+    technologies: React.js, Redux, JavaScript, CSS3
+    features: Centralized state management, predictable state updates
+    challenges: Understanding Redux concepts, middleware implementation
+
+  - title: Redux Project 2
+    description: An admin dashboard with Redux for handling complex data flows.
+    technologies: React.js, Redux, REST API, Material-UI
+    features: Data visualization, user management, CRUD operations
+    challenges: Data normalization, action creators organization
+
+tailwind_css:
+  - title: Tailwind CSS Project 1
+    description: A landing page built with Tailwind CSS for rapid UI development.
+    technologies: HTML5, Tailwind CSS, JavaScript
+    features: Utility-first approach, responsive design
+    challenges: Learning curve of Tailwind CSS, customization
+
+  - title: Tailwind CSS Project 2
+    description: A blog template styled with Tailwind CSS for modern design.
+    technologies: Vue.js, Tailwind CSS, Markdown
+    features: Responsive layout, dark mode support
+    challenges: Tailwind CSS configuration, responsive breakpoints
+
+vue_js:
+  - title: Vue.js Project 1
+    description: A single-page application built with Vue.js for interactive user interfaces.
+    technologies: Vue.js, Vuex, Vue Router, SCSS
+    features: Component-based architecture, reactive data binding
+    challenges: Component communication, Vuex store management
+
+  - title: Vue.js Project 2
+    description: A dashboard application with Vue.js for data visualization.
+    technologies: Vue.js, Chart.js, REST API, BootstrapVue
+    features: Interactive charts, data filtering, authentication
+    challenges: Chart integration, API data fetching
+
+graphql:
+  - title: GraphQL Project 1
+    description: An application using GraphQL for efficient data fetching.
+    technologies: GraphQL, Node.js, Express.js, MongoDB
+    features: GraphQL queries, mutations, subscriptions
+    challenges: Schema design, resolver implementation
+
+  - title: GraphQL Project 2
+    description: A blog platform with GraphQL for flexible data querying.
+    technologies: GraphQL, React.js, Apollo Client, Prisma
+    features: Real-time updates, serverless architecture
+    challenges: Optimizing GraphQL queries, subscription setup
+
+api:
+  - title: API Project 1
+    description: A weather application consuming external APIs for weather data.
+    technologies: JavaScript, OpenWeather API, Geolocation API
+    features: Current weather display, location-based forecasts
+    challenges: Handling API responses, error handling
+
+  - title: API Project 2
+    description: A news aggregator app fetching news from various APIs.
+    technologies: React.js, News API, Axios
+    features: Categorized news display, search functionality
+    challenges: API rate limiting, data filtering

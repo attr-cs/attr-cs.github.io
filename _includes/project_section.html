@@ -1,0 +1,16 @@
+<section class="project-types">
+    <h2>{{ include.title }}</h2>
+    {% for project in include.projects %}
+    <div class="project">
+        <div class="image-container">
+            <img src="https://picsum.photos/seed/picsum/400/200" alt="{{ project.title }}">
+        </div>
+        <div class="project-details">
+            <p><strong>Description:</strong> {{ project.description }}</p>
+            <p><strong>Technologies Used:</strong> {{ project.technologies }}</p>
+            <p><strong>Features:</strong> {{ project.features }}</p>
+            <p><strong>Challenges Faced:</strong> {{ project.challenges }}</p>
+        </div>
+    </div>
+    {% endfor %}
+</section>

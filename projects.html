@@ -3,4 +3,17 @@ layout: default
 title: Projects
 css: assets/css/projects.css
 ---
-my projects
+<div class="projects">
+    {% include project_section.html title="Portfolio Website" projects=site.data.projects.portfolio %}
+    {% include project_section.html title="E-commerce Platform" projects=site.data.projects.ecommerce %}
+    {% include project_section.html title="Blog Website" projects=site.data.projects.blog %}
+    {% include project_section.html title="Social Media App" projects=site.data.projects.social_media %}
+    {% include project_section.html title="Online Learning Platform" projects=site.data.projects.online_learning %}
+    {% include project_section.html title="Next.js Projects" projects=site.data.projects.next_js %}
+    {% include project_section.html title="React Native Projects" projects=site.data.projects.react_native %}
+    {% include project_section.html title="Redux Projects" projects=site.data.projects.redux %}
+    {% include project_section.html title="Tailwind CSS Projects" projects=site.data.projects.tailwind_css %}
+    {% include project_section.html title="Vue.js Projects" projects=site.data.projects.vue_js %}
+    {% include project_section.html title="GraphQL Projects" projects=site.data.projects.graphql %}
+    {% include project_section.html title="APIs" projects=site.data.projects.api %}
+</div>
