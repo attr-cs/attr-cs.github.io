@@ -17,7 +17,6 @@ html{
 
 body{
   position:relative;
-  top: 0;
 }
 
 html::-webkit-scrollbar{
@@ -81,7 +80,7 @@ nav {
       display: block;
       width: 1.6rem;
       position: absolute;
-      top: 1vh;
+      top: 2vh;
       background-color: #fff;
       border-radius: 0.2em;
       padding: 2px;
@@ -97,7 +96,7 @@ nav {
       display: flex;
       align-items: center;
       justify-content: center;
-      height: 100vh;
+      height: 50vh;
     }
     nav>ul>li>a{
       font-size: 1.4rem;

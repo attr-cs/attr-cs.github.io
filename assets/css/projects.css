@@ -7,6 +7,7 @@
 .projects{
     width: 60%;
     display: flex;
+    margin: 0 auto;
     flex-direction: column;
     padding: 2em;
     /* margin: 2em auto; */
@@ -18,10 +19,6 @@
     padding: 0.5em 1em;
     border-radius: 0.3em;
     transition: 0.3s ease;
-}
-
-.project-types:hover{
-    box-shadow:3px 3px 4px 2px rgba(0,0,0,0.3);
 }
 
 h2{
@@ -36,19 +33,18 @@ h2{
 .image-container{
     overflow: hidden;
     text-align:left;
+    padding: 1.4em;
 }
 
 .project img{
-    margin: 2em 0;
     border-radius: 10px;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     width: 100%;
     max-width: 100%;
-    transition: transform 0.3s ease;
 }
 
-.project img:hover{
-    transform: scale(1.1);
+.project-details{
+    width: 95%;
+    margin: 1em auto;
 }
 
 .project p{
