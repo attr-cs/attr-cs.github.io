@@ -17,6 +17,7 @@ html{
 
 body{
   position:relative;
+  background: #E4EfE9;
 }
 
 html::-webkit-scrollbar{
