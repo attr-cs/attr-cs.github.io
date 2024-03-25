@@ -14,6 +14,14 @@
 
 .project-types{
     margin:1em 0;
+    box-shadow:0 0 2px 3px rgba(0,0,0,0.1);
+    padding: 0.5em 1em;
+    border-radius: 0.3em;
+    transition: 0.3s ease;
+}
+
+.project-types:hover{
+    box-shadow:3px 3px 4px 2px rgba(0,0,0,0.3);
 }
 
 h2{
@@ -50,4 +58,11 @@ h2{
 
 .project p:hover{
     transform: translateX(5px);
+}
+
+
+@media (max-width:785px){
+    .projects{
+        width: 100%;
+    }
 }
