@@ -14,6 +14,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
     
+    <link rel="stylesheet" href="/assets/css/contact.css">
+    
     <link rel="stylesheet" href="/assets/css/styles.css">
     
   </head>
@@ -37,7 +39,41 @@
 </nav>
 
     <img src="/assets/svg/rectangle-list.svg" id="navigateButton">
+    <div id="root">
+    <div class="container">
+        <h1>Contact Me</h1>
+        <form>
+            <label for="name">Name:<input id="name" type="text"></label>
+            <label for="email">E-mail:<input id="email" type="email"></label>
+            <label for="comments">Message:<textarea id="comments" cols="40" rows="4"></textarea></label>
+            <p id="textInfo"><span id="black">Please fill the required info..</span></p>
+            <button type="submit" id="submitButton">Submit</button>
+        </form>
+        <section class="contactMe">
+            <h2>More</h2>
+            <hr>
+            <ul>
+                <li><a href="">Github</a></li>
+                <li><a href="">LinkedIn</a></li>
+                <li><a href="">(X)Twitter</a></li>
+            </ul>
+            <section id="mailPhone">
+                <p><strong>Mail:</strong> dhruvbh108@gmail.com</p>
+                <p><strong>Phone: +91-</strong>9650655649</p>
+            </section>
+        </section>
+    </div>
+</div>
+
+    <footer><p>Copyright &copy; (attr-cs)</p></footer>
+
+
+
+
     
+    <script src="/assets/js/contact.js"></script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="/assets/js/script.js"></script>
   </body>
 </html>

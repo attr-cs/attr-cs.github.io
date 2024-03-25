@@ -1,4 +1,31 @@
 ---
 layout: default
 title: Contact
+css: assets/css/contact.css
+js: assets/js/contact.js
 ---
+<div id="root">
+    <div class="container">
+        <h1>Contact Me</h1>
+        <form>
+            <label for="name">Name:<input id="name" type="text"></label>
+            <label for="email">E-mail:<input id="email" type="email"></label>
+            <label for="comments">Message:<textarea id="comments" cols="40" rows="4"></textarea></label>
+            <p id="textInfo"><span id="black">Please fill the required info..</span></p>
+            <button type="submit" id="submitButton">Submit</button>
+        </form>
+        <section class="contactMe">
+            <h2>More</h2>
+            <hr>
+            <ul>
+                <li><a href="">Github</a></li>
+                <li><a href="">LinkedIn</a></li>
+                <li><a href="">(X)Twitter</a></li>
+            </ul>
+            <section id="mailPhone">
+                <p><strong>Mail:</strong> dhruvbh108@gmail.com</p>
+                <p><strong>Phone: +91-</strong>9650655649</p>
+            </section>
+        </section>
+    </div>
+</div>
