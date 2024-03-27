@@ -24,9 +24,11 @@ html{
     font-size: 16px;
     font-family: roboto;
 }
+html,body{
+  height: 100%;
+}
 
 body{
-  position:relative;
   background: #E4EfE9;
 }
 
@@ -69,6 +71,9 @@ nav {
     background-color: #555; /* Darken background on hover */
   }
 
+input{
+  -webkit-appearance: none;
+}
 
 #navigateButton{
   display: none;
@@ -78,6 +83,8 @@ nav {
 footer{
   width: 100%;
   padding: 1em 0;
+  position:relative;
+  bottom: 0;
   background-color: #333;
   text-align: center;
 }
@@ -131,9 +138,9 @@ footer p{
         justify-content: space-around;
     }
     footer p{
-      font-size: 0.7rem;
+      font-size: 0.8rem;
     }
     footer{
-      padding: 0.4em 0;
+      padding: 0.5em 0;
     }
 }
