@@ -28,8 +28,14 @@ html,body{
   height: 100%;
 }
 
+.main-container{
+  min-height: 100%;
+}
+
 body{
   background: #E4EfE9;
+  position:relative;
+  min-height: 100%;
 }
 
 html::-webkit-scrollbar{
@@ -82,14 +88,12 @@ input{
 
 footer{
   width: 100%;
-  padding: 1em 0;
-  position:relative;
-  bottom: 0;
+  padding: 0.6em 0;
   background-color: #333;
   text-align: center;
 }
 footer p{
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-family: "anta";
   color: #fff;
 }
