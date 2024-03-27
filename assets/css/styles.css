@@ -77,7 +77,7 @@ nav {
     background-color: #555; /* Darken background on hover */
   }
 
-input{
+input,textarea{
   -webkit-appearance: none;
 }
 
