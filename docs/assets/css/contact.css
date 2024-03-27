@@ -156,6 +156,10 @@ button[type="submit"]:active{
     button[type="submit"]{
         font-size: 1rem;
     }
+    footer{
+        position: fixed;
+        bottom: 0;
+    }
 }
 
 @media (max-width:349px)
