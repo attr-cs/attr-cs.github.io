@@ -7,6 +7,7 @@ submitButton.addEventListener("click",function(event){
 
 let data = {};
 function onSubmit(){
+    
     let name = document.getElementById("name");
     let email = document.getElementById("email");
     let comments = document.getElementById("comments");

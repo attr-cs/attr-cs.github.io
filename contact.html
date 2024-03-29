@@ -4,7 +4,7 @@ title: Contact
 css: assets/css/contact.css
 js: assets/js/contact.js
 ---
-<div id="root">
+
     <div class="container">
         <h1>Contact Me</h1>
         <form>
@@ -12,7 +12,13 @@ js: assets/js/contact.js
             <label for="email">E-mail:<input id="email" type="email"></label>
             <label for="comments">Message:<textarea id="comments" cols="40" rows="4"></textarea></label>
             <p id="textInfo"><span id="black">Please fill the required info..</span></p>
-            <button type="submit" id="submitButton">Submit</button>
+
+            <button type="submit" id="submitButton" class="g-recaptcha"
+    data-sitekey="6Lefx6cpAAAAAJXsA_QC9jqoCRiV6noEQU_SL7DR"
+    data-callback='onSubmit'
+    data-action='submit'>
+  Submit
+</button>
         </form>
         <section class="contactMe">
             <h2>More</h2>
@@ -28,4 +34,3 @@ js: assets/js/contact.js
             </section>
         </section>
     </div>
-</div>

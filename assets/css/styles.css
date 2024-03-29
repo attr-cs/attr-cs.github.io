@@ -33,7 +33,7 @@ html,body{
 }
 
 body{
-  background: #E4EfE9;
+  background: linear-gradient(to right,#cc2b5e , #753a88);
   position:relative;
   min-height: 100%;
 }
@@ -47,7 +47,7 @@ html::-webkit-scrollbar-thumb{
 }
 
 nav {
-    background-color: #333;
+    background-color:#333;
     padding: 10px 0;
   }
   
@@ -88,23 +88,23 @@ input,textarea{
 
 footer{
   width: 100%;
-  padding: 0.4em 0;
+  padding: 0.7em 0;
   position: relative;
   bottom: 0;
   background-color: #333;
   text-align: center;
 }
 footer p{
-  font-size: 0.7rem;
+  font-size: 0.8rem;
   font-family: "anta";
   color: #fff;
 }
 @media (max-width:785px){
   html{font-size: 14px;}
   #navigation{
-    display: none;
+    display:none;
     width: 100%;
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     height: 1px;
@@ -114,8 +114,8 @@ footer p{
     #navigateButton{
       display: block;
       width: 1.8rem;
-      position: absolute;
-      top: 2vh;
+      position: fixed;
+      top: 3vh;
       background-color: #fff;
       border-radius: 0.2em;
       padding: 4px;
@@ -144,9 +144,9 @@ footer p{
         justify-content: space-around;
     }
     footer p{
-      font-size: 0.6rem;
+      font-size: 0.8rem;
     }
     footer{
-      padding: 0.3em 0;
+      padding: 0.5em 0;
     }
 }
