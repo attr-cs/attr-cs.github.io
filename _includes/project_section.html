@@ -3,7 +3,10 @@
     {% for project in include.projects %}
     <div class="project">
         <div class="image-container">
-            <img src="https://picsum.photos/seed/picsum/400/200" alt="{{ project.title }}">
+            <img class="project-image" src="https://picsum.photos/seed/picsum/400/200" alt="{{ project.title }}">
+            <div class="image-overlay">
+                Click to view
+            </div>
         </div>
         <div class="project-details">
             <p><strong>Description:</strong> {{ project.description }}</p>

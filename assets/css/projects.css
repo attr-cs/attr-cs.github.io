@@ -9,11 +9,13 @@
 
 .project-types{
     margin:1em 0;
-    box-shadow:0 0 2px 3px rgba(0,0,0,0.1);
+    box-shadow:0 0 10px 5px rgba(0,0,0,0.4);
     padding: 0.5em 1em;
+    color: #fff;
     border-radius: 0.3em;
     transition: 0.3s ease;
 }
+
 
 h2{
     font-size: 1.7rem;
@@ -23,17 +25,46 @@ h2{
 .project{
     margin: 1em 0;
 }
-
-.image-container{
+.image-container {
+    position: relative;
     overflow: hidden;
-    text-align:left;
-    padding: 1em;
+    border: 0.6em solid #0e1111;
+    border-radius: 0.2em;
 }
 
-.project img{
-    border-radius: 10px;
+.project img {
     width: 100%;
     max-width: 100%;
+    filter: blur(15px);
+}
+.image-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #232b2b;
+    color: #fff;
+    border-radius: 5px;
+    padding: 15px 20px;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-align: center;
+    opacity: 0.8;
+    transition: opacity 0.3s ease;
+    cursor: pointer;
+}
+
+.image-overlay:hover {
+    opacity: 1;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}
+
+
+.image-overlay.active{
+    display: none;
+}
+.project img.active{
+    filter: blur(0);
 }
 
 .project-details{
@@ -51,11 +82,31 @@ h2{
 }
 
 .project-types{
-    background-color:white;
+    background-color:#232b2b;
+    font-family: "mont";
 }
 
 @media (max-width:785px){
     .projects{
         width: 100%;
+
+    }
+    .image-overlay {
+        font-size: 1em;
+        padding: 10px 15px;
+    }
+}
+
+
+@media (max-width:520px){
+    h2{
+        font-size: 1.2rem;
+    }
+    .project p{
+        font-size: 0.9rem;
+    }
+    .image-overlay{
+        font-size: 0.8rem;
+        padding: 0.6em 1em;
     }
 }

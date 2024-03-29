@@ -1,10 +1,14 @@
 /* #007991 #78FFD6 */
 /* #BDC3C7 #2C3E50 */
 /* #cc2b5e → #753a88 */
-
+/* #14131a #0e1111 */
+html{
+    font-size: 16px;
+}
 *{
     color: #fff;
 }
+
 header{
     width: 70%;
     padding: 2em;
@@ -14,20 +18,22 @@ header{
     border-radius: 1em;
     row-gap: 0.3em;
     align-items: center;
-
+    background: #232b2b;
+    box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.4);
     /* glass effect */
-    background: rgba(255, 255, 255, 0.2);
+    /* background: rgba(255, 255, 255, 0.2);
     border-radius: 16px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px);
-    border: 1px solid rgba(255, 255, 255, 0.3);
+    border: 1px solid rgba(255, 255, 255, 0.3); */
 }
 .main-container{
     padding: 3em 0;
     display: flex;
     align-items: center;
     flex-direction: column;
+    background:#0e1111 ;
 }
 
 .profile-image img{
@@ -37,7 +43,6 @@ header{
 .profile-image{
     min-width: 10vw;
     min-height: 10vw;
-    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.1);
     width: 10vw;
     display: flex;
     justify-content: center;
@@ -76,14 +81,12 @@ main{
 .skills,.techs{
     min-width: 45%;
     height: 100%;
-    background:#333;
     border-radius: 1em;
-    background: rgba(255, 255, 255, 0.2);
+    background:#232b2b;
     border-radius: 16px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px);
-    border: 1px solid rgba(255, 255, 255, 0.3);
     padding: 1em;
 }
 span{
@@ -94,24 +97,41 @@ span{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    font-family: "anta";
 }
 
-.progress-bar {
-    width: 70%;
+.progress-bar{
+    width:70%;
     background: #fff;
     border-radius: 0.5em;
     height: 0.6em;
-    position: relative; /* Add this to position the ::after element */
+    position:relative;
 }
-
-.progress-bar::after {
+.progress-bar::after{
     content: '';
     position: absolute;
-    top: 0;
+    top:0;
     left: 0;
-    width: 20%; /* Adjust this value to change the progress */
     height: 100%;
     background: green;
+}
+.pb-1::after{
+    width: 70%;
+}
+.pb-2::after{
+    width: 85%;
+}
+.pb-3::after{
+    width: 80%;
+}
+.pb-4::after{
+    width: 60%;
+}
+.pb-5::after{
+    width: 50%;
+}
+.pb-6::after{
+    width: 65%;
 }
 
 @media (max-width:758px)
@@ -124,5 +144,15 @@ span{
 @media  (max-width:480px) {
     .profile-image{
         width: 20vw;
+    }
+}
+
+
+@media (max-width:785px){
+    html{
+        font-size: 12px;
+    }
+    .skillsAndTechs{
+        flex-direction: column;
     }
 }
