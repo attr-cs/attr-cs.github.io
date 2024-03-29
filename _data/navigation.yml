@@ -1,7 +1,7 @@
 - name: Home
   link: /
 - name: About
-  link: #about-area
+  link: /#about-area
 - name: Contact
   link: /contact.html
 - name: Skills

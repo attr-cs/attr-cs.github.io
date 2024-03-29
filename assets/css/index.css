@@ -26,7 +26,8 @@ header{
 .main-container{
     padding: 3em 0;
     display: flex;
-    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .profile-image img{
@@ -56,6 +57,61 @@ p{
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4);
     font-family: "anta";
     font-size: 1rem;
+}
+
+
+main{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+}
+
+.skillsAndTechs{
+    margin: 4em 0;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+.skills,.techs{
+    min-width: 45%;
+    height: 100%;
+    background:#333;
+    border-radius: 1em;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 1em;
+}
+span{
+    color: #fff;
+}
+.skills ul li{
+    margin: 0.3em 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.progress-bar {
+    width: 70%;
+    background: #fff;
+    border-radius: 0.5em;
+    height: 0.6em;
+    position: relative; /* Add this to position the ::after element */
+}
+
+.progress-bar::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20%; /* Adjust this value to change the progress */
+    height: 100%;
+    background: green;
 }
 
 @media (max-width:758px)

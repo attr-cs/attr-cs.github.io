@@ -38,11 +38,15 @@ body{
   min-height: 100%;
 }
 
+html::-webkit-scrollbar-track{
+  background: #753a88;
+}
+
 html::-webkit-scrollbar{
     width: 0.4em;
 }
 html::-webkit-scrollbar-thumb{
-    background: #333;
+    background: white;
     border-radius: 2px;
 }
 
@@ -66,7 +70,8 @@ nav {
   nav ul li a {
     text-decoration: none;
     color: #fff;
-    font-family: 'Roboto', sans-serif; /* Use Roboto font */
+    font-family: "roboto",sans-serif;
+
     font-size: 16px;
     padding: 5px 10px;
     border-radius: 5px;
@@ -129,7 +134,7 @@ footer p{
   
   #navigateButton i {
       font-size: 1.5rem;
-      color: #fff;/
+      color: #fff;
   }
   
   #navigateButton:hover i {
