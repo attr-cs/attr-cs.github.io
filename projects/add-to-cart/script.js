@@ -93,14 +93,14 @@ function myButton()
     customPrice = parseFloat(priceInput.value);
     if(customName == "" || customPrice == 0)
     {
-        textArea.innerHTML = "<p style=\"color:red;\"><img width=\"16px\" src=\"./svg/delete.svg\" alt=\"wrong\"> Invalid details!</p>";      
+        textArea.innerHTML = "<p style='color:red;'><i class='fas fa-times'></i> Invalid details!</p>";;      
     }
     else{
         let tempItem = {};
         tempItem.name = customName;
         tempItem.price = customPrice;
         customItems.push(tempItem);
-        textArea.innerHTML = "<p style=\"color:green;\"><img width=\"16px\" src=\"./svg/icons8-tick.svg\" alt=\"tick\"> Added!</p>";      
+        textArea.innerHTML = "<p style='color:green;'><i class='fas fa-check'></i> Added!</p>";      
         
         addToCart(tempItem);
     }

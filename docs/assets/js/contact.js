@@ -15,7 +15,7 @@ function onSubmit(){
     let emailValue = email.value;
     let commentsValue = comments.value;
     if(nameValue.trim() === "" || emailValue.trim() === ""){
-        textInfo.innerHTML = `<span id="red">Invalid Credentials!</span>`
+        textInfo.innerHTML = `<span id="red"><i class="fas fa-times"></i>  Invalid Credentials!</span>`
     }
     else{
         data = {
@@ -23,7 +23,7 @@ function onSubmit(){
             email:emailValue,
             comments:commentsValue
         }
-        textInfo.innerHTML = `<span id="green">Successfully submitted!</span>`
+        textInfo.innerHTML = `<span id="green"><i class="fas fa-check"></i>  Successfully submitted!</span>`
     }
     name.value = "";
     email.value = "";

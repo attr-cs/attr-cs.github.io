@@ -18,11 +18,13 @@
     <link rel="stylesheet" href="{{ page.css | relative_url }}">
     {% endif %}
     <link rel="stylesheet" href="{{ 'assets/css/styles.css' | relative_url}}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.css">
+
   </head>
   <body>
     {% include navigation.html %}
     <div class="main-container">
-    <img src="{{ 'assets/svg/rectangle-list.svg' | relative_url }}" id="navigateButton">
+    <div id="navigateButton"><i class="fas fa-bars"></i></div>
     {{ content }}
   </div>
   <footer><p>Copyright &copy; (attr-cs) - All rights reserved.</p></footer>

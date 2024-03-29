@@ -5,29 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Add items to cart</title>
     <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.css">
 </head>
 <body>
-    <a id="backLink" href="/projects.html">Back to Projects</a>
+    <a id="backLink" href="/projects.html"><i class="fas fa-arrow-left"></i> Back to Projects</a>
     <div id="cart">
-        <h1>Add to cart (<span id="item-no">0</span>) <br> Price: <span id="green">$</span><span id="price">0</span></h1>
+        <h1><i class="fas fa-shopping-cart"></i> Add to cart (<span id="item-no">0</span>) <br> Price: <span id="green">$</span><span id="price">0</span></h1>
         <div id="cart-items">
-            <p id="text2">No Items Added!</p>
-            
+            <p id="text2"><i class="fas fa-info-circle"></i> No Items Added!</p>
         </div>
+        
         <div id="items">
             <h1>Click on item to add</h1>
         </div>
         <div id="custom-item">
             <input type="text" id="item-name" placeholder="Enter name of item..">
             <input type="number" id="item-price" placeholder="Enter price of item..">
-            <button title="Click to add" id="mybutton" value="Add">Add</button>
-            <p id="text">Enter Your Custom Item</p>
+            <button title="Click to add" id="mybutton"><i class="fas fa-plus"></i> Add</button>
+            <p id="text"><i class="fas fa-info-circle"></i> Enter Your Custom Item</p>
         </div>
     </div>
-
-
     
-
-    <script src="script.js" ></script>
+    <script src="script.js"></script>
 </body>
 </html>
