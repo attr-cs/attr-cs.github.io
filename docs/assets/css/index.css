@@ -56,12 +56,14 @@ h2{
     font-family: "mont";
     font-size: 1.5rem;
     text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+    text-align: center;
 }
 
 p{
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4);
     font-family: "anta";
     font-size: 1rem;
+    text-align: center;
 }
 
 
@@ -77,10 +79,12 @@ main{
     width: 80%;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 2em;
 }
 .skills,.techs{
-    min-width: 45%;
-    height: 100%;
+    min-width: 48%;
+    min-height: 100%;
     border-radius: 1em;
     background:#232b2b;
     border-radius: 16px;
@@ -89,23 +93,29 @@ main{
     -webkit-backdrop-filter: blur(5px);
     padding: 1em;
 }
+
+.skills{
+    height: max-content;
+}
+
 span{
     color: #fff;
 }
 .skills ul li{
     margin: 0.3em 0;
     display: flex;
-    justify-content: space-between;
+    justify-content:space-between;
     align-items: center;
     font-family: "anta";
 }
 
 .progress-bar{
-    width:70%;
+    width:60%;
     background: #fff;
     border-radius: 0.5em;
     height: 0.6em;
     position:relative;
+    box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.4);
 }
 .progress-bar::after{
     content: '';
@@ -113,7 +123,7 @@ span{
     top:0;
     left: 0;
     height: 100%;
-    background: green;
+    background: rgb(25, 219, 25);
 }
 .pb-1::after{
     width: 70%;
@@ -134,25 +144,104 @@ span{
     width: 65%;
 }
 
-@media (max-width:758px)
-{
+.skillsAndTechs .techs{
+    display: flex;
+    padding: 0.3em;
+    border-radius: 0.4em;
+    flex-direction: row;
+    justify-content:space-between ;
+}
+
+.techs .techsub{
+    width: 24%;
+    height: 100%;
+    background-color: #0e0e0e;
+    border-radius: 0.4em;
+    padding: 0.4em 0.2em;
+}
+
+.techs .techsub h3{
+    font-family: "mont";
+    font-size: 0.8rem;
+    text-align: center;
+    width: 100%;
+}
+
+
+.techs .techsub p{
+    text-align: center;
+    margin: 0.8em auto;
+    font-size: 0.7em;
+    border-radius: 1em;
+    width:80%;
+    height: max-content;
+    padding: 0.3em 0.3em;
+    background-color: transparent;
+}
+
+.b-green{
+    border: 1px solid rgb(24, 226, 24);
+}
+.b-blue{
+    border: 1px solid rgb(34, 130, 255);
+}
+.b-red{
+    border: 1px solid rgb(255, 40, 40);
+}
+.b-yellow{
+    border: 1px solid yellow;
+}
+.b-white{
+    border: 1px solid white;
+}
+.b-purple{
+    border: 1px solid rgb(164, 29, 255);
+}
+.b-lblue{
+    border: 1px solid rgb(21, 255, 204);
+}
+
+
+
+
+
+@media (max-width:785px){
+
+    html{
+        font-size: 12px;
+    }
     .profile-image{
         width: 15vw;
     }
+    .skillsAndTechs{
+        flex-direction: column;
+    }
+    
 }
 
 @media  (max-width:480px) {
     .profile-image{
         width: 20vw;
     }
+    .skillsAndTechs .techs{
+        flex-wrap: wrap;
+    }
 }
 
-
-@media (max-width:785px){
-    html{
-        font-size: 12px;
+@media (max-width:286px){
+    .skills ul li span{
+        font-size: 0.8rem;
     }
-    .skillsAndTechs{
-        flex-direction: column;
+    p{
+        font-size: 0.8rem;
+    }
+    h2{
+        font-size: 1.3rem;
+    }
+    .techs .techsub h3{
+        font-size: 0.6rem;
+    }
+    .techs .techsub p{
+        font-size: 0.5rem;
     }
 }

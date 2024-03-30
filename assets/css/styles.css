@@ -108,6 +108,9 @@ footer p{
   color: #fff;
 }
 @media (max-width:785px){
+  html{
+    font-size:14px;
+  }
   #navigation{
     display:none;
     width: 100%;

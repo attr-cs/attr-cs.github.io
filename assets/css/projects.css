@@ -1,5 +1,5 @@
 .projects{
-    width: 60%;
+    width: 80%;
     display: flex;
     margin: 0 auto;
     flex-direction: column;
@@ -87,9 +87,14 @@ h2{
 }
 
 @media (max-width:785px){
+    h2{
+        font-size: 1.4rem;
+    }
+    html{
+        font-size: 14px;
+    }
     .projects{
-        width: 100%;
-
+        width: 90%;
     }
     .image-overlay {
         font-size: 1em;
@@ -101,6 +106,9 @@ h2{
 @media (max-width:520px){
     h2{
         font-size: 1.2rem;
+    }
+    .projects{
+        width: 100%;
     }
     .project p{
         font-size: 0.9rem;
