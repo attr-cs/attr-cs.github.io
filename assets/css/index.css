@@ -177,6 +177,12 @@ span{
     height: max-content;
     padding: 0.3em 0.3em;
     background-color: transparent;
+    cursor: pointer;
+    transition: 0.2s ease-out;
+}
+
+.techs .techsub p:hover{
+    box-shadow: 0 0 3px 1px rgba(255, 255, 255, 0.3);
 }
 
 .b-green{
@@ -203,6 +209,69 @@ span{
 
 
 
+#about-area {
+    color: #fff;
+    text-align: center;
+    width: 100%;
+}
+
+.about-container {
+    padding: 3em;
+    background-color: #232b2b;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.about-container h2 {
+    font-size: 2rem;
+}
+
+.about-container p {
+    margin: 1em 0;
+}
+
+#contact-area {
+    width: 100%;
+    color: #fff;
+    text-align: center;
+}
+
+.contact-container {
+    padding: 3em;
+    background-color: #232b2b;
+    width: 70%;
+    margin: 3em auto;
+}
+
+.contact-container h2 {
+    font-size: 2rem;
+}
+
+.contact-container p {
+    margin: 1em 0;
+}
+
+.contact-container a {
+    color: #fff;
+    background: #0e1111;
+    border-radius: 0.4em;
+    transition: 0.1s ease;
+    padding: 0.7em 1em;
+    font-family: "mont";
+}
+
+.contact-container a:hover {
+    background: black;
+    color: #78FFD6;
+    text-decoration: underline;
+}
+
+.contact-container,.about-container{
+    border-radius: 1em;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.4);
+}
 
 
 @media (max-width:785px){
