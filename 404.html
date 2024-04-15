@@ -2,22 +2,15 @@
 permalink: /404.html
 title: 404
 layout: default
-
 ---
 
 <style>
-  .main-container{
-    padding: 2em 0;
-    display: flex;
-    justify-content: center;
-    /* align-items: center; */
-    background:linear-gradient(to left,#cc2b5e, #753a88);
-}
   body {
     font-family: Arial, sans-serif;
     color: white;
     margin: 0;
     padding: 0;
+    background: linear-gradient(135deg, #1a1a1a 0%, #343434 100%);
   }
   .container {
     text-align: center;
@@ -38,17 +31,18 @@ layout: default
     display: inline-block;
     padding: 10px 20px;
     margin-top: 1em;
-    background-color: #007bff;
-    color: #fff;
+    background-color: transparent;
+    color: #007bff;
     text-decoration: none;
+    border: 2px solid #007bff;
     border-radius: 5px;
-    transition: background-color 0.3s ease;
+    transition: background-color 0.3s ease, color 0.3s ease;
   }
   .btn:hover {
-    background-color: #0056b3;
+    background-color: #007bff;
+    color: white;
   }
 </style>
-
 
 <div class="container">
   <h1>404</h1>
